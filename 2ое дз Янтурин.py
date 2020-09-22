@@ -6,7 +6,6 @@ my_str = "Привет, Олимпийский"
 my_list = ["i", "75", "26"]
 my_tuple = ("n", "4", "6")
 my_dict = {"food": "Pizza", "drink": "Cola"}
-
 own_list = [my_int, my_float, my_str, my_list, my_tuple, my_dict]
 for i in own_list:
     print(f"{i} is {type(i)}")
@@ -86,12 +85,3 @@ for element in my_list:
             my_list.append(number)
 print(my_list)
 '''
-
-
-
-
-
-
-
-
-
